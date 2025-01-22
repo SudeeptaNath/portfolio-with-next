@@ -1,0 +1,86 @@
+.container {
+  min-height: 100vh;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav a:hover {
+  color: #0070f3;
+}
+
+.hero {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.featured {
+  margin: 4rem 0;
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.projectCard {
+  padding: 1.5rem;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.projectCard:hover {
+  transform: translateY(-5px);
+}
+
+.skills {
+  margin: 4rem 0;
+}
+
+.skillsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.skillsList span {
+  background: #f3f4f6;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 4rem;
+  border-top: 1px solid #eaeaea;
+} 

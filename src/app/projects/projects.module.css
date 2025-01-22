@@ -1,0 +1,76 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.backLink {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.backLink:hover {
+  color: #0070f3;
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.projectCard {
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.projectCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.projectImage {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+.projectContent {
+  padding: 1.5rem;
+}
+
+.projectLinks {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.projectLink {
+  text-decoration: none;
+  color: #0070f3;
+  font-size: 0.9rem;
+}
+
+.projectLink:hover {
+  text-decoration: underline;
+}
+
+.techTag {
+  background: #f3f4f6;
+  padding: 0.25rem 0.5rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+} 
